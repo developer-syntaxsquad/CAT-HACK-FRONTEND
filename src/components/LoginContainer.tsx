@@ -18,7 +18,7 @@ const validationSchema = Yup.object({
 
 const LoginContainer : React.FC = () => {
 
-    const [onLoad, setOnLoad] = useState<boolean>(false);
+    const [onLoad] = useState<boolean>(false);
  
      const initialValues: FormValues = {
         userID: '',
